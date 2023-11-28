@@ -18,11 +18,10 @@ time in order to have the best pipeline of this complete one for doing the GWAS 
 
     ### Step_1 Downloading R pakchaes
 
-if (!requireNamespace("BiocManager", quietly = TRUE))
-install.packages("BiocManager")
+     if (!requireNamespace("BiocManager", quietly = TRUE))
+     install.packages("BiocManager")
 
-BiocManager::install(c("ggplot2", "pacman", " plotrix", "DMRcate", " circlize","FlowSorted.Blood.450k", " dplyr"))
-
+     BiocManager::install(c("ggplot2", "pacman", " plotrix", "DMRcate", " circlize","FlowSorted.Blood.450k", " dplyr"))
 
      ### Step_2 Loading libraries
 
