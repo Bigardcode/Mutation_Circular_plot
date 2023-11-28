@@ -15,8 +15,8 @@ time in order to have the best pipeline of this complete one for doing the GWAS 
 ### Installation and load R libraries
 
 
-### Step_1 Downloading & installation toools
 
+    ### Step_1 Downloading & installation toools
     library(ggplot2)
     library(plotrix)
     library(circlize)
