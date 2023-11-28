@@ -33,3 +33,22 @@ spectrum which describes the influence of the genetic context on the mutation ra
     library(plotrix)
     library(circlize)
     library(pacman)
+
+
+### Creating sepeate category for each gene percentage of mutations
+
+
+    ### Step_1 Downloading R pakchaes
+
+     if (!requireNamespace("BiocManager", quietly = TRUE))
+     install.packages("BiocManager")
+
+     BiocManager::install(c("ggplot2", "pacman", " plotrix", "DMRcate", " circlize","FlowSorted.Blood.450k", " dplyr"))
+
+     ### Step_2 Loading libraries
+
+    library(ggplot2)
+    library(plotrix)
+    library(circlize)
+    library(pacman)
+
