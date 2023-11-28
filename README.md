@@ -12,9 +12,9 @@ or organism over time.Mutation rates are not constant and are not limited to a
 single type of mutation;there are many different types of mutations. Mutation 
 rates are given for specific classesof mutations. Point mutations are a class of
  mutations which are changes to a single base.Missense and Nonsense mutations 
-are two subtypes of point mutations. The rate of these types of substitutions
- can be further subdivided into a mutation 
-spectrum which describes the influence of the genetic context on the mutation rate
+are two subtypes of point mutations. The rate of these types of substitutionscan
+ be further subdivided into a mutation spectrum which describes the influence 
+of the genetic context on the mutation rate
 
 ### Installation and load R libraries
 
@@ -25,7 +25,7 @@ spectrum which describes the influence of the genetic context on the mutation ra
      if (!requireNamespace("BiocManager", quietly = TRUE))
      install.packages("BiocManager")
 
-     BiocManager::install(c("ggplot2", "pacman", " plotrix", "DMRcate", " circlize","FlowSorted.Blood.450k", " dplyr"))
+     BiocManager::install(c("ggplot2", "pacman", " plotrix", "DMRcate", " circlize", " dplyr"))
 
      ### Step_2 Loading libraries
 
