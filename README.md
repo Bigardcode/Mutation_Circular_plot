@@ -38,17 +38,11 @@ spectrum which describes the influence of the genetic context on the mutation ra
 ### Creating sepeate category for each gene percentage of mutations
 
 
-    ### Step_1 Downloading R pakchaes
+      ### Step_1 Creat a list of genes 
 
-     if (!requireNamespace("BiocManager", quietly = TRUE))
-     install.packages("BiocManager")
+     category <- c("HGNC", "ADCY5", "APOC3", "BCL2","CDKN1A", "CTF1", "EGR1", "FEN1", "GDF11")
 
-     BiocManager::install(c("ggplot2", "pacman", " plotrix", "DMRcate", " circlize","FlowSorted.Blood.450k", " dplyr"))
+     ### Step_2 Creat a list of pecentae of mutations
 
-     ### Step_2 Loading libraries
-
-    library(ggplot2)
-    library(plotrix)
-    library(circlize)
-    library(pacman)
+     percent <- c(75, 65, 45, 69, 35, 44, 62, 80, 50)
 
