@@ -2,15 +2,19 @@
 
 
 
-# GWAS notebook
+# Gene mutation Circular Plot
 
 
 ## Getting Started
 
-In this notebook, a collection of population genetic data analysis codes has been compiled
-to be a tool for development and comprehensive analysis One of the advantages of this notebook
-is that we can develop and change the edited codes at any 
-time in order to have the best pipeline of this complete one for doing the GWAS prrojects..
+In genetics, the mutation rate is the frequency of new mutations in a single gene 
+or organism over time.Mutation rates are not constant and are not limited to a 
+single type of mutation;there are many different types of mutations. Mutation 
+rates are given for specific classesof mutations. Point mutations are a class of
+ mutations which are changes to a single base.Missense and Nonsense mutations 
+are two subtypes of point mutations. The rate of these types of substitutions
+ can be further subdivided into a mutation 
+spectrum which describes the influence of the genetic context on the mutation rate
 
 ### Installation and load R libraries
 
