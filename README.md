@@ -16,7 +16,7 @@ are two subtypes of point mutations. The rate of these types of substitutionscan
  be further subdivided into a mutation spectrum which describes the influence 
 of the genetic context on the mutation rate
 
-- Installation and load R libraries
+## Installation and load R libraries
 
 
 
@@ -35,20 +35,17 @@ of the genetic context on the mutation rate
     library(pacman)
 
 
-- Creating seperate category for each gene percentage of mutations
+## Creating seperate category for each gene percentage of mutations
 
+        ### Step_1 Creat a list of genes 
+        category <- c("HGNC", "ADCY5", "APOC3", "BCL2","CDKN1A", "CTF1", "EGR1", "FEN1", "GDF11")
 
-      ### Step_1 Creat a list of genes 
-
-     category <- c("HGNC", "ADCY5", "APOC3", "BCL2","CDKN1A", "CTF1", "EGR1", "FEN1", "GDF11")
-
-     ### Step_2 Creat a list of pecentae of mutations
-
-     percent <- c(75, 65, 45, 69, 35, 44, 62, 80, 50)
+        ### Step_2 Creat a list of pecentae of mutations
+        percent <- c(75, 65, 45, 69, 35, 44, 62, 80, 50)
 
 
 
-- Creating Circular polot for pcentae of mutation pe gene
+## Creating Circular polot for pcentae of mutation pe gene
 
 
      color= c("#7C0A02", "#FAE7B5", "#7C0A02", "#FAE7B5", "#7C0A02", "#FAE7B5", "#7C0A02", "#FAE7B5", "#7C0A02")
